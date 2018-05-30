@@ -1,7 +1,7 @@
 let express = require('express');
 let app = express();
 let path = require('path');
-let routes = require('./routes');
+let routes = require('./api/routes');
 
 app.set('port', 3000);
 
